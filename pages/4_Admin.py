@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.join(_ROOT, "backend"))
 
 import streamlit as st
 import pandas as pd
-from utils.styles import GLOBAL_CSS, metric_card_html, score_color_class
+from styles import GLOBAL_CSS, metric_card_html, score_color_class
 
 st.set_page_config(page_title="Admin · AI Analyzer", page_icon="🛡️", layout="wide")
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)

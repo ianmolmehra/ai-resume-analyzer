@@ -8,7 +8,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 import pandas as pd
 
-from utils.styles import GLOBAL_CSS, metric_card_html, score_color_class, score_label
+from styles import GLOBAL_CSS, metric_card_html, score_color_class, score_label
 
 st.set_page_config(page_title="Analytics · AI Analyzer", page_icon="📊", layout="wide")
 st.markdown(GLOBAL_CSS, unsafe_allow_html=True)

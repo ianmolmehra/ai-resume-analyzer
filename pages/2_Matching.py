@@ -9,7 +9,7 @@ import plotly.express as px
 import tempfile
 from pathlib import Path
 
-from utils.styles import (GLOBAL_CSS, metric_card_html, score_color_class,
+from styles import (GLOBAL_CSS, metric_card_html, score_color_class,
                            score_label, progress_bar_html, score_color)
 
 st.set_page_config(page_title="Job Matching · AI Analyzer", page_icon="🎯", layout="wide")

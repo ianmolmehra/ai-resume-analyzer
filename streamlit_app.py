@@ -7,7 +7,7 @@ import streamlit as st
 import tempfile
 from pathlib import Path
 
-from utils.styles import GLOBAL_CSS, skill_tags_html, metric_card_html, score_color_class, score_label, progress_bar_html
+from styles import GLOBAL_CSS, skill_tags_html, metric_card_html, score_color_class, score_label, progress_bar_html
 
 st.set_page_config(
     page_title="AI Resume Analyzer",
