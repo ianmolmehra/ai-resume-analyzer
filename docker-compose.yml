@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  app:
+    build: .
+    container_name: resume_app
+    restart: unless-stopped
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./uploads:/app/uploads
+      - ./resume_analyzer.db:/app/resume_analyzer.db
+    command: streamlit run streamlit_app.py --server.port=8501 --server.address=0.0.0.0
